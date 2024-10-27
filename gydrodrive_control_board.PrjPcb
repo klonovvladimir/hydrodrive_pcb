@@ -492,23 +492,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ZHBKWRQR
 
 [Document27]
-DocumentPath=lib\ST Microelectronics STM32 G4.IntLib
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document28]
 DocumentPath=Job.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -525,7 +508,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document29]
+[Document28]
 DocumentPath=schematic\gydrodrive_reservedPins.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -542,7 +525,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PEFXEFCG
 
-[Document30]
+[Document29]
 DocumentPath=gydrodrive_control_revA.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -558,6 +541,78 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UHMAGJKJ
+
+[Document30]
+DocumentPath=drafts\gydrodrive_control_revA_common_view.PCBDwf
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KYJUQULY
+
+[Document31]
+DocumentPath=schematic\gydrodrive_encoder.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=21
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ECQGCVJT
+
+[Document32]
+DocumentPath=schematic\gydrodrive_encoder.Harness
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[Document33]
+DocumentPath=lib\ST Microelectronics STM32 G4\Project Outputs for ST Microelectronics STM32 G4\ST Microelectronics STM32 G4.IntLib
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for gydrodrive_control_board\Design Rule Check - gydrodrive_control_revA.html
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -1315,7 +1370,7 @@ Type8=1
 Type9=1
 Type10=1
 Type11=1
-Type12=1
+Type12=0
 Type13=1
 Type14=1
 Type15=1
@@ -1578,9 +1633,9 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=StdLib.DbLib/Digital-PHY
-ComponentDesignItemID0=CA-IF1051VS-Q1
-ComponentSymbolReference0=CA-IF1051VS-Q1
+ComponentLibraryIdentifier0=ST Microelectronics STM32 G4.IntLib
+ComponentDesignItemID0=STM32G474RETx
+ComponentSymbolReference0=STM32G474RETx
 ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
 FullReplace=1
@@ -1596,41 +1651,48 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Comment
+ParameterName0=Built_By
 ParameterUpdate0=1
-ParameterName1=Component Kind
+ParameterName1=Comment
 ParameterUpdate1=1
-ParameterName2=Component Type
+ParameterName2=Component Kind
 ParameterUpdate2=1
-ParameterName3=Description
+ParameterName3=Copyright
 ParameterUpdate3=1
-ParameterName4=Library Reference
+ParameterName4=Description
 ParameterUpdate4=1
-ParameterName5=Max Price
+ParameterName5=Library Reference
 ParameterUpdate5=1
-ParameterName6=Parameters
+ParameterName6=Manufacturer_Part_Number
 ParameterUpdate6=1
-ParameterName7=Part Name
+ParameterName7=RefDes
 ParameterUpdate7=1
-ParameterName8=Part Number
+ParameterName8=Type
 ParameterUpdate8=1
+ParameterName9=Value
+ParameterUpdate9=1
+ParameterName10=Vendor
+ParameterUpdate10=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SO8_L
+ModelName0=LQFP64-10x10mm
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=SO8_M
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=SO8_N
-ModelUpdate2=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3V3|NetColor=$006E6EFF
+Net2=NetName=3V3_1|NetColor=$006E6EFF
+Net3=NetName=3V3_2|NetColor=$006E6EFF
+Net4=NetName=3V3_3|NetColor=$006E6EFF
+Net5=NetName=3V3_4|NetColor=$006E6EFF
+Net6=NetName=3V3_5|NetColor=$006E6EFF
+Net7=NetName=3V3_6|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
