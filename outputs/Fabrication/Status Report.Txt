@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : PCB Document [gydrodrive_control_revA.PcbDoc]
+   Generated File[gydrodrive_control_revA.TXT]
+   Generated File[gydrodrive_control_revA.LDP]
+   Generated File[gydrodrive_control_revA.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 22:28:25 On 28.10.2024
