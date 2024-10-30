@@ -44,6 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=Standart
 
 [Preferences]
 PrefsVaultGUID=
@@ -609,6 +610,24 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[ProjectVariant1]
+UniqueID=6D365F04-5352-4088-B51F-B6D995CA5988
+Description=Standart
+AllowFabrication=0
+ParameterCount=0
+VariationCount=10
+Variation1=Designator=R66|UniqueId=\HLAOVCZR\NWOWVRXD\LKPLEWUC|Kind=1|AlternatePart= 
+Variation2=Designator=R67|UniqueId=\HLAOVCZR\NWOWVRXD\KORCRWOH|Kind=1|AlternatePart= 
+Variation3=Designator=R42|UniqueId=\FLHAJEJH\EXSBXWAL|Kind=1|AlternatePart= 
+Variation4=Designator=R4|UniqueId=\OTZNOTHT\ETCOJMEG|Kind=1|AlternatePart= 
+Variation5=Designator=J3_1|UniqueId=\1GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation6=Designator=J3_2|UniqueId=\2GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation7=Designator=J3_3|UniqueId=\3GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation8=Designator=J3_4|UniqueId=\4GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation9=Designator=J3_5|UniqueId=\5GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation10=Designator=J3_6|UniqueId=\6GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+ParamVariationCount=0
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for gydrodrive_control_board\Design Rule Check - gydrodrive_control_revA.html
