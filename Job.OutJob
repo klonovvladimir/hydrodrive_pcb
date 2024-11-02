@@ -17,11 +17,11 @@ RevisionNamingSchemeGUID=
 [OutputGroup1]
 Name=Job.OutJob
 Description=
-TargetOutputMedium=BOM
+TargetOutputMedium=Fabrication
 VariantName=[No Variations]
-VariantScope=1
+VariantScope=0
 CurrentConfigurationName=
-TargetPrinter=Adobe PDF
+TargetPrinter=HP MFP M436 PCL6
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputMedium1=Print Job
 OutputMedium1_Type=Printer
@@ -109,7 +109,7 @@ OutputName5=Gerber Files
 OutputCategory5=Fabrication
 OutputDocumentPath5=
 OutputVariantName5=
-OutputEnabled5=0
+OutputEnabled5=1
 OutputEnabled5_OutputMedium1=0
 OutputEnabled5_OutputMedium2=0
 OutputEnabled5_OutputMedium3=0
@@ -123,7 +123,7 @@ OutputName6=NC Drill Files
 OutputCategory6=Fabrication
 OutputDocumentPath6=
 OutputVariantName6=
-OutputEnabled6=0
+OutputEnabled6=1
 OutputEnabled6_OutputMedium1=0
 OutputEnabled6_OutputMedium2=0
 OutputEnabled6_OutputMedium3=0
@@ -136,8 +136,8 @@ OutputType7=BOM_PartType
 OutputName7=Bill of Materials
 OutputCategory7=Report
 OutputDocumentPath7=
-OutputVariantName7=
-OutputEnabled7=1
+OutputVariantName7=Standart
+OutputEnabled7=0
 OutputEnabled7_OutputMedium1=0
 OutputEnabled7_OutputMedium2=0
 OutputEnabled7_OutputMedium3=0
@@ -152,11 +152,11 @@ Configuration7_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsIn
 Configuration7_Name3=GroupOrder
 Configuration7_Item3=Comment=True|Parameters=True
 Configuration7_Name4=SortOrder
-Configuration7_Item4=Part Name=Up
+Configuration7_Item4=Designator=Up
 Configuration7_Name5=VisibleOrder
-Configuration7_Item5=Part Name=135|Comment=120|Description=120|Designator=120|Parameters=95|Quantity=35
+Configuration7_Item5=Designator=120|Part Name=135|Comment=120|Description=120|Parameters=95|Quantity=35
 Configuration7_Name6=VisibleOrder_Flat
-Configuration7_Item6=Part Name=135|Comment=120|Description=120|Designator=120|Parameters=95|Quantity=35
+Configuration7_Item6=Designator=120|Part Name=135|Comment=120|Description=120|Parameters=95|Quantity=35
 
 [PublishSettings]
 OutputFilePath2=D:\YandexDisk\Projects_fs\Hydrodrive\gydrodrive_control_board\outputs\Схема\Схема электрическая.PDF

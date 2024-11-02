@@ -1,14 +1,14 @@
 Project Outputs Generation Report
 ---------------------------------
-Start Output Generation At 21:37:26 On 30.10.2024
+Start Output Generation At 10:02:38 On 02.11.2024
 
 Output: Bill of Materials
 Type  : BOM
-From  : Variant [[No Variations]] of Project [gydrodrive_control_board.PrjPcb]
-   Generated File[Bill of Materials-gydrodrive_control_board.xlsx]
+From  : Variant [Standart] of Project [gydrodrive_control_board.PrjPcb]
+   Generated File[Bill of Materials-gydrodrive_control_board(Standart).xlsx]
 
 
 Files Generated   : 1
 Documents Printed : 0
 
-Finished Output Generation At 21:37:29 On 30.10.2024
+Finished Output Generation At 10:02:41 On 02.11.2024

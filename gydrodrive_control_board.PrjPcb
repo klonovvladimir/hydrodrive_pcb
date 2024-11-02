@@ -616,7 +616,7 @@ UniqueID=6D365F04-5352-4088-B51F-B6D995CA5988
 Description=Standart
 AllowFabrication=0
 ParameterCount=0
-VariationCount=10
+VariationCount=12
 Variation1=Designator=R66|UniqueId=\HLAOVCZR\NWOWVRXD\LKPLEWUC|Kind=1|AlternatePart= 
 Variation2=Designator=R67|UniqueId=\HLAOVCZR\NWOWVRXD\KORCRWOH|Kind=1|AlternatePart= 
 Variation3=Designator=R42|UniqueId=\FLHAJEJH\EXSBXWAL|Kind=1|AlternatePart= 
@@ -627,6 +627,8 @@ Variation7=Designator=J3_3|UniqueId=\3GLYIILZH\LMUALCEE|Kind=1|AlternatePart=
 Variation8=Designator=J3_4|UniqueId=\4GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
 Variation9=Designator=J3_5|UniqueId=\5GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
 Variation10=Designator=J3_6|UniqueId=\6GLYIILZH\LMUALCEE|Kind=1|AlternatePart= 
+Variation11=Designator=C38|UniqueId=\HLAOVCZR\YGIITQDH\IACIHUAJ|Kind=1|AlternatePart= 
+Variation12=Designator=C35|UniqueId=\HLAOVCZR\PQVYNUAD\JVMOORNY|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
